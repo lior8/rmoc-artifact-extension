@@ -107,9 +107,10 @@ print ( " \n--- Plotting the Distributions of Termination Times --------\n " )
 
 ## Change to "AS1239" to obtains the plots presented in Section 6
 
-PlotTerminationTimes( "AS3967", "Termination_Times",               "All",                  "Announcement"    )
-PlotTerminationTimes( "AS3967", "Termination_Times",               "All",                  "Failure"         )
-PlotTerminationTimes( "AS3967", "Termination_Times",               "WidthLengthsOrders",   "Announcement"    )
-PlotTerminationTimes( "AS3967", "Termination_Times",               "WidthLengthsOrders",   "Failure"         )
-PlotTerminationTimes( "AS3967", "Times_Propagate_Unreachability",  "All",                  "Failure"         )
+ASID = "AS"+sys.argv[1]
+PlotTerminationTimes( ASID, "Termination_Times",               "All",                  "Announcement"    )
+PlotTerminationTimes( ASID, "Termination_Times",               "All",                  "Failure"         )
+PlotTerminationTimes( ASID, "Termination_Times",               "WidthLengthsOrders",   "Announcement"    )
+PlotTerminationTimes( ASID, "Termination_Times",               "WidthLengthsOrders",   "Failure"         )
+PlotTerminationTimes( ASID, "Times_Propagate_Unreachability",  "All",                  "Failure"         )
                         

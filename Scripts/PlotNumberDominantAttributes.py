@@ -7,6 +7,7 @@
 import matplotlib.pyplot as plt
 import numpy             as np
 import csv
+import sys
 
 def PlotNumberDominantAttributes( AS, WhichOrders ):
 
@@ -90,4 +91,4 @@ print ( " \n--- Plotting the Distribution of Number of Dominant Attributes \n " 
 
 ## Change to "AS1239" to obtains the plots presented in Section 6
 
-PlotNumberDominantAttributes( "AS3967", "All" )
+PlotNumberDominantAttributes( "AS"+sys.argv[1], "All" )

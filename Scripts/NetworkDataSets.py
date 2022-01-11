@@ -13,7 +13,7 @@ import re
 ##   'for AS in ['1221', '1239', '1755', '3257', '3967', '6461']:
 ## to generate the test networks pertaining the all the ASs.
 
-AS = "AS3967"
+AS = "AS" + sys.argv[1]
 
 fileNameWeights   = 'RocketfuelTopologies/%s/weights.intra'   % AS
 fileNameLatencies = 'RocketfuelTopologies/%s/latencies.intra' % AS

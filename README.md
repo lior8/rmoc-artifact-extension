@@ -1,3 +1,13 @@
+# Fork Note
+This is a very simple extension of the artifact of the paper "Routing on Multiple Optimality Criteria". The script "run-SmallScaleEvaluation.sh" is now able to get three parameters specifying the AS ID number, number of trials, and if to compile the program or not.
+
+To run it, you now need to provide the following arguments like so:
+```
+      bash run-SmallScaleEvaluation.sh 1221 5 yes
+```
+This would run 5 independent trials (for each test) on AS1221, and will compile the source files before it begins.
+We also changed the Python scripts to receive an argument specifying the AS number
+
 # Artifact of the paper "Routing on Multiple Optimality Criteria"
 
 ## Table of Contents 
