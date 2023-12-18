@@ -1,4 +1,6 @@
 # Fork Note
+This fork was done as part of a final project for the course "Introduction to Networking". The report is provided [here](Networking_Final_Report.pdf).
+
 This is a very simple extension of the artifact of the paper "Routing on Multiple Optimality Criteria". The script "run-SmallScaleEvaluation.sh" is now able to get three parameters specifying the AS ID number, number of trials, and if to compile the program or not.
 
 To run it, you now need to provide the following arguments like so:
